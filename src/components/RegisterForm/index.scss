@@ -1,0 +1,22 @@
+.login-form {
+  margin: 30px;
+  .input-wrapper {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-bottom: 5px;
+    }
+    input {
+      padding: 15px 10px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      background-color: rgba(128, 128, 128, 0.277);
+      border: 3px solid transparent;
+      &:focus {
+        border: 3px solid #bf4080;
+      }
+    }
+  }
+}
